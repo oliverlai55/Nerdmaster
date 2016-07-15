@@ -1,0 +1,69 @@
+// - - - - - - - - - - - - - - - - - - -
+// - - navbar module
+// styles for the navbar module
+
+.navbar {
+  background-color: $red;
+  color: #fff;
+}
+
+@media screen and (min-width: 546px) {
+  .navbar {
+    height: 115px;
+  }
+}
+
+@media screen and (max-width: 543px) {
+    .navbar {
+      height: 50px;
+    }
+    .navbar-icons-xs {
+      margin-top: -20px;
+      width: 45px;
+    }
+    .navbar-user-icon-xs {
+      margin-right: 10px;
+    }
+}
+
+.navbar-container {
+  background-color: $red;
+  padding-top: 1%;
+}
+.navbar-search-bar {
+  margin-left: 22px;
+}
+
+.navbar-search-btn.btn-sm {
+  padding-top: 0.27rem;
+  padding-bottom: 0.27rem;
+  //Sets height on navbar-search-btn to height of accompanying input
+}
+
+.navbar-upload-btn {
+    margin-left: 20px;
+    width: 105px;
+}
+
+.navbar-brand-lg {
+  width: 350px;
+}
+
+.navbar-user-icon {
+  font-size: 2.3em;
+}
+
+.navbar-upload-icon {
+  font-size: 2.3em;
+  padding-top: 1px;
+}
+
+.navbar-search-icon {
+  font-size: 2.3em;
+}
+
+@media screen and (min-width: 960px) {
+  .navbar-upload-icon {
+    margin-right: 5px;
+  }
+}

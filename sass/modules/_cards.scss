@@ -1,0 +1,47 @@
+// - - - - - - - - - - - - - - - - - - -
+// - - cards module
+// styles for the cards module
+
+.card {
+  border: none;
+}
+
+.card-image {
+  display: block;
+  width: 100%;
+}
+
+.card-title {
+    font-weight: 400;
+}
+
+.card-conference {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 4%;
+}
+
+.card-caption {
+  padding: 0 $spacer;
+  margin-top: $spacer;
+}
+
+.card-description {
+  font-size: 12px;
+  line-height: 15px;
+  color: $card-description-grey;
+}
+
+.card-date {
+  margin-bottom: 4px;
+  color: $card-info-grey;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.card-author {
+  color: $card-info-grey;
+  margin-bottom: 0;
+  font-size: 12px;
+  font-weight: 300;
+}

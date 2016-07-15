@@ -1,0 +1,20 @@
+// - - - - - - - - - - - - - - - - - - -
+// - - slidedetail module
+// styles for the slidedetail module
+.slidedetail-wrapper {
+  padding: 0;
+}
+
+.slidedetail-image {
+  background-color: black;
+}
+
+.slidedetail-download-btn {
+  width: 200px;
+}
+
+@media screen and (max-width: 445px) {
+  .slidedetail-download-btn {
+    width: 95%;
+  }
+}
