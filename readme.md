@@ -18,7 +18,7 @@
 * [Task Runner](#task-runner)
 
 ## Project Overview
-Nerdmaster Intern Project Frontend is an HTML5 web app that runs in React.js. The front-end project serves as the user interactive portion of a larger project (Nerdmaster) that aggregates all slides from conference talks.  Big Nerd Ranch employees have the ability to either search or upload slides via a centralized location.
+Nerdmaster is a copy of an internal app I initiated during my internship at Big Nerd Ranch, a software development firm. The internal app is officially named Nerdmaster Project Frontend. It is an HTML5 web app that runs in React.js. The front-end project serves as the user interactive portion of a larger project (Nerdmaster) that aggregates all slides from conference talks.  Big Nerd Ranch employees have the ability to either search or upload slides via a centralized location.  I am currently in the process of changing the backend API endpoints so that I will not be relying on servers at Big Nerd Ranch.  As a result, some functionalities will not be working at the moment.
 
 ### iOS, Android, and Browser Support
 This project is accessible across iOS, Android and modern web browsers.  
