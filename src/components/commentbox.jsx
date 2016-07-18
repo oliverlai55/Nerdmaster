@@ -6,15 +6,15 @@ var CommentForm = require("./commentform");
 module.exports = React.createClass({
   loadCommentsFromServer: function(){
     $.ajax({
-      url: "https://nerd-master.herokuapp.com/presentations/" + this.props.slideId + "/comments",
-      beforeSend: function(request){
-        request.setRequestHeader("Access-Token", "cdf66af709151d2400be9b8b78eee7d9492bdd4137356f0b85559bbd51673268")
-      },
+      url: "../../data/slide" + this.props.slideId + "comments.json",
+      // beforeSend: function(request){
+      //   request.setRequestHeader("Access-Token", "cdf66af709151d2400be9b8b78eee7d9492bdd4137356f0b85559bbd51673268")
+      // },
       dataType: 'json',
       cache: false,
       success: function(commentData){
-        this.setState({commentData: commentData.comments});
-        // console.log(commentData);
+        this.setState({commentData: commentData});
+        console.log(commentData);
       }.bind(this),
       error: function(xhr, status, err){
         console.error(this.props.url, status, err.toString());
@@ -28,19 +28,22 @@ module.exports = React.createClass({
     console.log("handleCommentSubmit");
     console.log(comment);
     $.ajax({
-      url: "https://nerd-master.herokuapp.com/presentations/" + this.props.slideId + "/comments",
-      beforeSend: function(request){
-        request.setRequestHeader("Access-Token", "cdf66af709151d2400be9b8b78eee7d9492bdd4137356f0b85559bbd51673268")
-      },
+      url: "../../data/comments.json",
+      // beforeSend: function(request){
+      //   request.setRequestHeader("Access-Token", "cdf66af709151d2400be9b8b78eee7d9492bdd4137356f0b85559bbd51673268")
+      // },
       dataType: 'json',
+      cache: false,
       type: 'POST',
-      data: {comment},
+      data: JSON.stringify(comment),
       success: function(data){
+        console.log("post comments!!");
+        console.log(data);
         this.loadCommentsFromServer();
         this.setState({data: data});
       }.bind(this),
       error: function(xhr, status, err){
-        console.error("https://nerd-master.herokuapp.com/presentations/" + this.props.slideId + "/comments", status, err.toString());
+        console.error("../../data/slide" + this.props.slideId + "comments.json", status, err.toString());
       }.bind(this)
     });
   },
@@ -49,6 +52,8 @@ module.exports = React.createClass({
   },
   render: function() {
     var slideComments = this.state.commentData || [];
+    console.log("this is sldiecomments");
+    console.log(slideComments);
     return (
       <div className="container-fluid">
         <div className="row m-r-2">
