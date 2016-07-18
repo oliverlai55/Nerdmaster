@@ -1,4 +1,4 @@
-# Nerdmaster Intern Project Frontend
+# Nerdmaster (In Progress)
 
 ## Contents
 * [Project Overview](#project-overview)
@@ -18,13 +18,15 @@
 * [Task Runner](#task-runner)
 
 ## Project Overview
-Nerdmaster is a copy of an internal app I initiated during my internship at Big Nerd Ranch, a software development firm. The internal app is officially named Nerdmaster Project Frontend. It is an HTML5 web app that runs in React.js. The front-end project serves as the user interactive portion of a larger project (Nerdmaster) that aggregates all slides from conference talks.  Big Nerd Ranch employees have the ability to either search or upload slides via a centralized location.  I am currently in the process of changing the backend API endpoints so that I will not be relying on servers at Big Nerd Ranch.  As a result, some functionalities will not be working at the moment.
+Nerdmaster is a copy of an internal app I initiated during my internship at Big Nerd Ranch, a software development firm. The internal app is officially named Nerdmaster Project Frontend. It is an HTML5 web app that runs in React.js. The front-end project serves as the user interactive portion of a larger project (Nerdmaster) that aggregates all slides from conference talks.  Users have the ability to either search or upload slides via a centralized location.  I am currently in the process of changing the backend API endpoints so that I will not be relying on servers at Big Nerd Ranch.  As a result, some functionalities will not be working at the moment.
+
+Nerdmaster is currently deployed on Heroku at [https://bnr-nerdmaster.herokuapp.com](https://bnr-nerdmaster.herokuapp.com/).
 
 ### iOS, Android, and Browser Support
-This project is accessible across iOS, Android and modern web browsers.  
+This project is not accessible on iOS and Android.  It is only accessible across modern web browsers.  
 
 ### One-Page App
-Nerdmaster Intern Project Frontend is a one-page app, meaning the browser only loads the index.html file directly. Other "views" are dynamically injected into the page via ajax and React components.
+Nerdmaster is a one-page app, meaning the browser only loads the index.html file directly. Other "views" are dynamically injected into the page via ajax and React components.
 
 ## Installation
 1. Clone repo.
@@ -45,9 +47,7 @@ Nerdmaster Intern Project Frontend is a one-page app, meaning the browser only l
 ## Hosting and Content Management
 
 ### Deployment
-Nerdmaster-intern-project-frontend is currently deployed on Heroku at [https://bnr-nerdmaster.herokuapp.com](https://bnr-nerdmaster.herokuapp.com/).
-
-This repository is only responsible for the development aspect of the project.  In order to deploy the pages, you have to manually copy and paste compiled files to the Express app named [nerdmaster-intern-frontend-server](https://github.com/bignerdranch/nerdmaster-intern-frontend-server). Nerdmaster-intern-frontend-server is an Express app that enables you to serve static pages on your local server.  The app can also deploy the pages to Heroku. For instructions on deploying changes from the project origin/master to Heroku, please follow the instructions in the [nerdmaster-intern-frontend-server](https://github.com/bignerdranch/nerdmaster-intern-frontend-server) repository.
+Nerdmaster is currently deployed on Heroku at [https://bnr-nerdmaster.herokuapp.com](https://bnr-nerdmaster.herokuapp.com/).
 
 ### Web Server
 
@@ -102,4 +102,4 @@ http://momentjs.com/
 Moment.js is a third party library that parses, validates, manipulates, and displays dates in JavaScript.  This project uses moment.js to manipulate the display format of dates.
 
 ## Task Runner
-Nerdmaster Intern Project Frontend uses [Gulp](http://gulpjs.com/) as its task runner.
+Nerdmaster uses [Gulp](http://gulpjs.com/) as its task runner.
