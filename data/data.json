@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "title": "Apple iOS",
+    "categories": "iOS",
+    "conference": "Apple Conference",
+    "date": "2016-06-12",
+    "description": "It was about Apple iOS",
+    "presenters": "Tim Cook",
+    "thumbnail": "http://3.bp.blogspot.com/-IBn2hClArUk/UQAdUEE7SoI/AAAAAAAABOA/NMQtGn3eVjU/s1600/slides-small.png",
+    "slideshow": "http://web.mit.edu/rsi/www/pdfs/beamer-tutorial.pdf"
+  },
+  {
+    "id": 2,
+    "title": "Google Notes",
+    "categories": "android",
+    "conference": "Google Conference",
+    "date": "2016-06-16",
+    "description": "It was about Google stuff",
+    "presenters": "Sergey Brinn",
+    "thumbnail": "http://3.bp.blogspot.com/-IBn2hClArUk/UQAdUEE7SoI/AAAAAAAABOA/NMQtGn3eVjU/s1600/slides-small.png",
+    "slideshow": "http://web.mit.edu/rsi/www/pdfs/beamer-tutorial.pdf"
+  },
+  {
+    "id": 3,
+    "title": "Facebook React",
+    "categories": "frontend",
+    "conference": "FB Conference",
+    "date": "2016-06-20",
+    "description": "This is everything you want to know about React!!",
+    "presenters": "Mark Zuckerberg",
+    "thumbnail": "http://3.bp.blogspot.com/-IBn2hClArUk/UQAdUEE7SoI/AAAAAAAABOA/NMQtGn3eVjU/s1600/slides-small.png",
+    "slideshow": "http://web.mit.edu/rsi/www/pdfs/beamer-tutorial.pdf"
+  },
+  {
+    "id": 4,
+    "title": "Rails",
+    "categories": "backend",
+    "conference": "Rails Conference",
+    "date": "2016-05-13",
+    "description": "The slides are about Rails",
+    "presenters": "Mike Conley",
+    "thumbnail": "http://3.bp.blogspot.com/-IBn2hClArUk/UQAdUEE7SoI/AAAAAAAABOA/NMQtGn3eVjU/s1600/slides-small.png",
+    "slideshow": "http://web.mit.edu/rsi/www/pdfs/beamer-tutorial.pdf"
+  },
+  {
+    "id": 5,
+    "title": "Operations",
+    "categories": "operations",
+    "conference": "Operations Conference",
+    "date": "2016-04-23",
+    "description": "This is about operations",
+    "presenters": "Jon Snow",
+    "thumbnail": "http://3.bp.blogspot.com/-IBn2hClArUk/UQAdUEE7SoI/AAAAAAAABOA/NMQtGn3eVjU/s1600/slides-small.png",
+    "slideshow": "http://web.mit.edu/rsi/www/pdfs/beamer-tutorial.pdf"
+  },
+  {
+    "id": 6,
+    "title": "Corporate Training",
+    "categories": "corporate-training",
+    "conference": "Corporate Training Conference",
+    "date": "2016-03-23",
+    "description": "Slides are about corporate training",
+    "presenters": "John Deer",
+    "thumbnail": "http://3.bp.blogspot.com/-IBn2hClArUk/UQAdUEE7SoI/AAAAAAAABOA/NMQtGn3eVjU/s1600/slides-small.png",
+    "slideshow": "http://web.mit.edu/rsi/www/pdfs/beamer-tutorial.pdf"
+  }
+]

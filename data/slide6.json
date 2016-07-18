@@ -1,0 +1,13 @@
+[
+  {
+    "id": 6,
+    "title": "Corporate Training",
+    "categories": "corporate-training",
+    "conference": "Corporate Training Conference",
+    "date": "2016-03-23",
+    "description": "Slides are about corporate training",
+    "presenters": "John Deer",
+    "thumbnail": "http://3.bp.blogspot.com/-IBn2hClArUk/UQAdUEE7SoI/AAAAAAAABOA/NMQtGn3eVjU/s1600/slides-small.png",
+    "slideshow": "http://web.mit.edu/rsi/www/pdfs/beamer-tutorial.pdf"
+  }
+]

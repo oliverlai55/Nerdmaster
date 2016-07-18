@@ -1,0 +1,13 @@
+[
+  {
+    "id": 5,
+    "title": "Operations",
+    "categories": "operations",
+    "conference": "Operations Conference",
+    "date": "2016-04-23",
+    "description": "This is about operations",
+    "presenters": "Jon Snow",
+    "thumbnail": "http://3.bp.blogspot.com/-IBn2hClArUk/UQAdUEE7SoI/AAAAAAAABOA/NMQtGn3eVjU/s1600/slides-small.png",
+    "slideshow": "http://web.mit.edu/rsi/www/pdfs/beamer-tutorial.pdf"
+  }
+]

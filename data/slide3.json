@@ -1,0 +1,13 @@
+[
+  {
+    "id": 3,
+    "title": "Facebook React",
+    "categories": "frontend",
+    "conference": "FB Conference",
+    "date": "2016-06-20",
+    "description": "This is everything you want to know about React!!",
+    "presenters": "Mark Zuckerberg",
+    "thumbnail": "http://3.bp.blogspot.com/-IBn2hClArUk/UQAdUEE7SoI/AAAAAAAABOA/NMQtGn3eVjU/s1600/slides-small.png",
+    "slideshow": "http://web.mit.edu/rsi/www/pdfs/beamer-tutorial.pdf"
+  }
+]

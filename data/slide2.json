@@ -1,0 +1,13 @@
+[
+  {
+    "id": 2,
+    "title": "Google Notes",
+    "categories": "android",
+    "conference": "Google Conference",
+    "date": "2016-06-16",
+    "description": "It was about Google stuff",
+    "presenters": "Sergey Brinn",
+    "thumbnail": "http://3.bp.blogspot.com/-IBn2hClArUk/UQAdUEE7SoI/AAAAAAAABOA/NMQtGn3eVjU/s1600/slides-small.png",
+    "slideshow": "http://web.mit.edu/rsi/www/pdfs/beamer-tutorial.pdf"
+  }
+]
