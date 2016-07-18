@@ -4,6 +4,7 @@ var Router = ReactRouter.Router;
 var Route = ReactRouter.Route;
 var Main = require("./components/main");
 var Slidedetail = require("./components/slidedetail");
+var Test = require("./components/test");
 
 module.exports = (
   <Router>
