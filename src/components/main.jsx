@@ -1,4 +1,6 @@
 var React = require("react");
+var ReactFire = require("reactfire");
+var Firebase = require("firebase");
 var Router = require("react-router");
 var $ = require("jquery");
 var Link = Router.Link;
