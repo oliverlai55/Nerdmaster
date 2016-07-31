@@ -20,7 +20,7 @@ module.exports = React.createClass({
                   <i className="fa fa-plus fa-2x m-l-1 col-sm-1 hidden-lg-up hidden-sm-down" aria-hidden="true"></i>
                   <i className="fa fa-search fa-2x m-l-1 col-sm-1 hidden-xs-down hidden-lg-up" aria-hidden="true"></i>
                   <i className="fa fa-search fa m-l-1 col-xs-1 col-sm-1 hidden-sm-up" aria-hidden="true"></i>
-                  <Link to={/upload} >
+                  <Link to={"/upload/"} >
                     <button className="btn btn-secondary btn-sm m-l-1 col-md-2 hidden-md-down" type="submit">Upload</button>
                   </Link>
                 <div className="input-group col-sm-5 hidden-md-down">
